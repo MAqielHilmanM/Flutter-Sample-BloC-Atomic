@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+
+class AtomSpace extends StatelessWidget {
+  AtomSpace({this.padding = const EdgeInsets.all(4.0)});
+
+  final EdgeInsets padding;
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: padding,
+    );
+  }
+}
